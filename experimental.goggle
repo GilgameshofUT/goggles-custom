@@ -17,11 +17,16 @@ $boost=3,site=interpreterfoundation.org
 ! Hebrew Interests
 $boost=3,site=biblicalarchaeology.org
 $boost=3,site=jstor.org
+$boost=2,site=torah.org
+$downrank,site=hebrew4christians.com
+$boost=2,site=myjewishlearning.com
 
 ! News
 $boost=3,site=talkingpointmemo.com
 $boost=3,site=washingtonpost.com
-
+$boost=2,site=haaretz.com
+$boost=2,site=haaretz.co.il
+$downrank,site=cnn.com
 
 ! TTRPG and Video games
 $boost=3,site=boardgamegeek.com
@@ -31,5 +36,10 @@ $boost=3,site=theregister.com
 $boost=3,site=gizmodo.com
 $boost=3,site=securityweek.com
 
+! General
+$boost=2,site=britannica.com
+
 ! Get rid of these
 $discard,site=foxnews.com
+$dicard,site=ancient-hebrew.org
+$dicard,site=mechanical-translation.org
