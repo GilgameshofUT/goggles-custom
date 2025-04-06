@@ -1,0 +1,96 @@
+! name: LDS Faith & Scholarship Perspectives
+! description: Boosts official Church sites, scholarly resources, media, blogs, forums, and diverse perspectives related to The Church of Jesus Christ of Latter-day Saints. Based on tiered list including mainstream and counterpoint views.
+! author: User Defined List via AI Assist
+! public: true
+! avatar: #003366
+
+! --- Metadata Notes ---
+! Homepage, Issues, License can be added if desired.
+! Set public: false if you don't want this Goggle discoverable.
+
+! --- Goggle Behavior Notes ---
+! This Goggle primarily uses $boost instructions.
+! Results matching these rules will be ranked higher than they otherwise would.
+! Unmatched results relevant to the query may still appear.
+! To *only* show results from these sites, add a generic "$discard" rule at the top (e.g., right below this comment block).
+! Precedence: $discard > $boost=3 > $boost=2 > $boost=1 > $downrank.
+
+! --- Core Sites (Highest Boost: 3) ---
+! Official Church Resources
+$boost=3, site=churchofjesuschrist.org
+$boost=3, site=josephsmithpapers.org
+
+! --- Tier 1 & 2: Scholarly & High-Quality Media (High Boost: 2) ---
+! Mainstream & Diverse Perspectives Scholarly Sources
+$boost=2, site=fairlatterdaysaints.org
+$boost=2, site=maxwellinstitute.byu.edu
+$boost=2, site=interpreterfoundation.org
+$boost=2, site=bookofmormoncentral.org
+$boost=2, site=hughnibley.net
+$boost=2, site=trumanmadsen.com
+$boost=2, site=scripturalmormonism.blogspot.com
+$boost=2, site=byustudies.byu.edu
+$boost=2, site=blakeostler.com
+$boost=2, site=margaretbarker.com
+$boost=2, site=drmsh.com
+$boost=2, site=davidrohl.com
+$boost=2, site=ntwrightonline.org
+$boost=2, site=theancienttradition.com
+$boost=2, site=latterdaysaintphilosopher.com
+$boost=2, site=theologyandthelatterdaysaint.com
+$boost=2, site=sacredsymbolism.org
+$boost=2, site=mormonscholarsfoundation.org
+$boost=2, site=jonlevenson.com
+$boost=2, site=mircea-eliade.com
+$boost=2, site=ldstheologicalsociety.org
+$boost=2, site=mormontheologyseminar.org
+! High-Quality Doctrinal Media (Non-YouTube specific domains)
+$boost=2, site=cwicmedia.com
+$boost=2, site=peterenns.com
+$boost=2, site=kerryshirts.com
+$boost=2, site=reasonandrevelationpodcast.com
+$boost=2, site=ldsperspectives.com
+! Tier 2 Diverse Perspectives Media
+$boost=2, site=firmlds.org
+$boost=2, site=ancientamerican.com
+$boost=2, site=faithmatters.org
+
+! --- Tier 3-6: Blogs, Forums, Niche Resources (Standard Boost: 1) ---
+! Doctrinally Sound Blogs and Forums
+$boost=1, site=bycommonconsent.com
+$boost=1, site=timesandseasons.org
+$boost=1, site=juniorganymede.com
+$boost=1, site=millennialstar.org
+$boost=1, site=exponentii.org
+$boost=1, site=wheatandtares.org
+$boost=1, site=mormonmomma.com
+$boost=1, site=ldsphilosophy.blogspot.com
+$boost=1, site=reddit.com, path=/r/latterdaysaints/
+$boost=1, site=moregoodfoundation.org ! Assumed domain for LDS.net Forums
+$boost=1, site=mormondialogue.org
+$boost=1, site=ldsblogs.com
+$boost=1, site=keepapitchinin.org
+$boost=1, site=sixteenthnephi.blogspot.com
+$boost=1, site=ldstruthclaims.blogspot.com
+$boost=1, site=mormontheologyblog.com
+$boost=1, site=ldsapologeticsforum.org
+$boost=1, site=squaretwo.org
+$boost=1, site=dialoguejournal.com
+! Scholar-Driven and Niche Resources (Tier 6)
+$boost=1, site=mormonscholarstestify.org
+$boost=1, site=scripturenotes.com
+$boost=1, site=ldstruths.com
+$boost=1, site=redheadedhostess.com
+$boost=1, site=ldsscriptureteachings.org
+$boost=1, site=mha.org
+$boost=1, site=gospeldoctrine.com
+$boost=1, site=ldsliving.com, path=/scripture/
+$boost=1, site=deverarchaeology.com
+$boost=1, site=craigkeener.com
+$boost=1, site=ldshistoricalstudies.org
+$boost=1, site=mormonphilosophyandtheology.com
+$boost=1, site=mormonwomensforum.org
+
+! --- Omitted Categories ---
+! Tier 4 Social Media Handles (@...): Cannot be targeted reliably by Goggles.
+! Tier 2 & 5 YouTube Channels: Boosting specific channels is difficult/unreliable with site/path rules. Associated websites are boosted if listed elsewhere.
