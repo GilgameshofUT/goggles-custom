@@ -41,5 +41,5 @@ $boost=2,site=britannica.com
 
 ! Get rid of these
 $discard,site=foxnews.com
-$dicard,site=ancient-hebrew.org
-$dicard,site=mechanical-translation.org
+$discard,site=ancient-hebrew.org
+$discard,site=mechanical-translation.org
