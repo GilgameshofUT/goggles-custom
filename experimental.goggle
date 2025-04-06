@@ -1,0 +1,35 @@
+! name: Experimental Reranking based on personal preferences
+! description: Boosts sites I trust and downranks ones I do not find useful. Probably not of value to anyone but me.
+! author: Gilgamesh King of Uruk
+! public: false
+! avatar: #2233ff
+
+
+! LDS interests
+$boost=3,site=churchofjesuschrist.org
+$boost=3,site=josephsmithpapers.org
+$boost=3,site=byu.edu
+$boost=3,site=fairlatterdaysaints.org
+$boost=3,site=maxwellinstitute.byu.edu
+$boost=3,site=interpreterfoundation.org
+
+
+! Hebrew Interests
+$boost=3,site=biblicalarchaeology.org
+$boost=3,site=jstor.org
+
+! News
+$boost=3,site=talkingpointmemo.com
+$boost=3,site=washingtonpost.com
+
+
+! TTRPG and Video games
+$boost=3,site=boardgamegeek.com
+
+! Infosec
+$boost=3,site=theregister.com
+$boost=3,site=gizmodo.com
+$boost=3,site=securityweek.com
+
+! Get rid of these
+$discard,site=foxnews.com
